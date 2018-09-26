@@ -13,6 +13,18 @@ export class MainContainerComponent implements OnInit, OnDestroy {
   @Input() name: string;
   @Input() className: string = '';
   @Input() controlHeight: string;
+  @Input() controlWidth: string;
+  @Input() flexLayout: boolean;
+  @Input() gridLayout: boolean;
+  @Input() Border: string;
+  @Input() visible: string;
+  @Input() x: string = 'center';
+  @Input() y: string= 'center';
+  @Input() closable: string;
+
+  // set title(title: string) {
+  //   return this.containerTitle;
+  // }
 
   constructor() { }
 
